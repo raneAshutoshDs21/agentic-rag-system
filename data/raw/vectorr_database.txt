@@ -1,0 +1,8 @@
+Vector databases store high-dimensional embedding vectors and support 
+similarity search. Popular options include FAISS, Pinecone, Weaviate, 
+Chroma, and Qdrant. FAISS (Facebook AI Similarity Search) is open-source 
+and runs locally without any API costs. It supports exact and approximate 
+nearest neighbor search. IVF (Inverted File Index) enables fast approximate 
+search at scale. HNSW (Hierarchical Navigable Small World) provides 
+excellent speed-accuracy tradeoffs. For production, FAISS with HNSW 
+indexing handles millions of vectors efficiently.

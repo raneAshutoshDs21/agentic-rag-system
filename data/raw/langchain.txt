@@ -1,0 +1,8 @@
+LangChain is a framework for building LLM applications. It provides 
+abstractions for chains, agents, tools, and memory. LangGraph extends 
+LangChain with stateful graph-based workflows. Key concepts include 
+chains (sequential LLM calls), agents (autonomous LLM decision makers),
+tools (functions agents can call), and memory (conversation persistence).
+FAISS integration in LangChain allows vector similarity search over 
+embedded documents. The retriever interface standardizes document 
+fetching across different vector stores.

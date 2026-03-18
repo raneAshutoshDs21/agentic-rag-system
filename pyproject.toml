@@ -1,0 +1,20 @@
+[project]
+name = "agentic-rag-system"
+version = "0.1.0"
+description = "Production-ready Agentic RAG system using open-source models"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.26.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"

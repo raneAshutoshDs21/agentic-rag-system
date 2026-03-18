@@ -1,0 +1,9 @@
+Production ML systems require robust infrastructure beyond model training.
+Key concerns include latency, reliability, observability, and scalability.
+Caching reduces redundant LLM calls significantly improving response time.
+Guardrails validate inputs and outputs to prevent harmful content.
+Rate limiting protects against API abuse and cost overruns. Logging 
+captures all system events for debugging and auditing. Distributed tracing 
+tracks requests across multiple services. Metrics like latency, throughput,
+and error rate measure system health. SQLite suits single-server deployments
+while PostgreSQL handles multi-server production systems.

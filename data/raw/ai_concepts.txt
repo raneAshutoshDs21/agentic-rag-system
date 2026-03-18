@@ -1,0 +1,6 @@
+Artificial Intelligence (AI) is the simulation of human intelligence 
+in machines. Machine Learning is a subset of AI where systems learn 
+from data. Deep Learning uses neural networks with many layers.
+Large Language Models (LLMs) are trained on massive text datasets.
+They can generate, summarize, translate, and reason about text.
+Popular LLMs include GPT-4, Claude, LLaMA, and Mixtral.

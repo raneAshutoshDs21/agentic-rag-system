@@ -1,0 +1,10 @@
+Retrieval Augmented Generation (RAG) combines retrieval systems with 
+language models. The process has three steps: indexing, retrieval, 
+and generation. Indexing converts documents into vector embeddings 
+stored in a vector database like FAISS or Pinecone. Retrieval finds 
+the most relevant chunks using similarity search. Generation uses 
+the retrieved context to produce accurate grounded answers.
+Advanced RAG techniques include reranking, context compression, 
+hybrid search, and query expansion. Reranking improves precision by 
+scoring retrieved documents. Context compression removes irrelevant 
+parts of documents. Hybrid search combines dense and sparse retrieval.

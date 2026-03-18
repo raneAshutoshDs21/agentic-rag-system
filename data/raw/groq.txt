@@ -1,0 +1,8 @@
+Groq provides ultra-fast LLM inference using custom LPU hardware.
+The Language Processing Unit (LPU) is purpose-built for sequential 
+token generation. Groq achieves 500+ tokens per second on LLaMA3-70B.
+Supported models include LLaMA3-70B, LLaMA3-8B, Mixtral-8x7B, and Gemma.
+The Groq API is OpenAI-compatible making migration simple. Rate limits 
+on the free tier are generous for development purposes. Low latency 
+makes Groq ideal for real-time agentic applications where multiple 
+LLM calls happen in sequence.

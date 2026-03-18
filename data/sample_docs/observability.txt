@@ -1,0 +1,1 @@
+Observability in AI systems includes logging, tracing, and metrics. OpenTelemetry is the standard framework for distributed tracing. Logging captures individual events. Tracing tracks request flow across components. Metrics measure system health over time. Together they enable debugging, performance monitoring, and reliability in production agentic AI systems.

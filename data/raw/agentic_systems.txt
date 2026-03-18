@@ -1,0 +1,8 @@
+Agentic AI systems enable LLMs to autonomously complete multi-step tasks.
+Key patterns include ReAct (Reasoning + Acting), Chain of Thought, and 
+Tree of Thought. Agents use tools like web search, code execution, and 
+database queries. Memory systems provide short-term (conversation) and 
+long-term (persistent facts) storage. Router agents direct queries to 
+specialized sub-agents. Evaluation agents use LLM-as-a-judge to score 
+outputs. Retry mechanisms handle failures and low-quality responses.
+Observability through logging and tracing enables debugging in production.
