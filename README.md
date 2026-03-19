@@ -6,28 +6,7 @@ advanced RAG, tools, memory, evaluation, and observability.
 ---
 
 ## 🏗️ Architecture
-```
-User Query
-    ↓
-Input Guardrails
-    ↓
-Router Agent (LLM-based)
-    ↓
-┌───────────────────────────────────┐
-│  RAG Agent   │ Web Search │ Python │
-│  (FAISS+BGE) │  (Tavily)  │  Exec  │
-└───────────────────────────────────┘
-    ↓
-Generator Node
-    ↓
-Output Guardrails
-    ↓
-LLM Evaluation (Judge)
-    ↓
-Cache + Memory Save
-    ↓
-Response
-```
+<img width="2811" height="2811" alt="Agentic RAG System Architecture - visual selection" src="https://github.com/user-attachments/assets/1ae3686c-e98f-47d2-bbe9-4e8f3514121f" />
 
 ---
 
