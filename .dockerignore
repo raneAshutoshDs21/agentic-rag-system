@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data and databases
+data/processed/
+logs/*.log
+*.db
+
+# Frontend (built separately)
+frontend/node_modules/
+frontend/build/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# Tests
+.pytest_cache/
+.coverage
+
+# Env files
+.env
